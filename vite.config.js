@@ -3,6 +3,9 @@ import laravel from 'laravel-vite-plugin';
 import path from 'path';
 
 export default defineConfig({
+    build: {
+    	watch: false
+    },
     plugins: [
         laravel({
             input: [
